@@ -1,0 +1,12 @@
+<input 
+type="file" 
+(change)="updatedFrente($event);" 
+accept="image/x-png,image/gif,image/jpeg"
+>
+<input 
+type="file" 
+(change)="updatedFrente2($event);" 
+accept="image/x-png,image/gif,image/jpeg"
+>
+<button (click)="enviar()">Enviar </button> <br>
+Retorno JSON: <span id="mensagem">{{ mensagem }}</span>

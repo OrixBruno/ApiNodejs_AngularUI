@@ -1,15 +1,16 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+/ui/angular/dist
+/ui/angular/tmp
+/ui/angular/out-tsc
 
 # dependencies
 /node_modules
+/ui/angular/node_modules
 
 # IDEs and editors
-/.idea
+/ui/angular/.idea
 .project
 .classpath
 .c9/
@@ -25,18 +26,18 @@
 !.vscode/extensions.json
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
+/ui/angular/.sass-cache
+/ui/angular/connect.lock
+/ui/angular/coverage
+/ui/angular/libpeerconnection.log
+/ui/angular/npm-debug.log
+/ui/angular/testem.log
+/ui/angular/typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+/ui/angular/e2e/*.js
+/ui/angular/e2e/*.map
 
 # System Files
-.DS_Store
-Thumbs.db
+/ui/angular/.DS_Store
+/ui/angular/Thumbs.db
